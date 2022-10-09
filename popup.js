@@ -86,20 +86,34 @@ var urls = [
     }
 ]
 
+// #############################################################################
+
 function RandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+async function getCurrentTab() {
+    let queryOptions = { active: true, currentWindow: true };
+    let [tab] = await chrome.tabs.query(queryOptions);
+    return tab;
+}
+
+// #############################################################################
+
 
 document.addEventListener('DOMContentLoaded', () => {
     var answerButton = document.getElementById('answer');
     var newButton = document.getElementById('new');
 
     answerButton.addEventListener('click', () => {
-        alert("ANSWER !");
+        chrome.tabs.query({ 'active': true, 'windowId': chrome.windows.WINDOW_ID_CURRENT },
+            function (tabs) {
+                alert(urls.find(item => item.url === tabs[0].url).name);
+            }
+        );
     }, false);
 
     newButton.addEventListener('click', () => {
-
         chrome.tabs.update(null, { url: urls[RandomNumber(0, 27)].url });
     }, false);
 }, false);

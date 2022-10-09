@@ -7,8 +7,16 @@
     },
     "content_scripts": [
         {
-            "css": ["styles.css"],
-            "matches": ["https://doc-pedagogie.umontpellier.fr/*"]
+            "css": [
+                "styles.css"
+            ],
+            "matches": [
+                "https://doc-pedagogie.umontpellier.fr/*"
+            ]
         }
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs"
     ]
 }

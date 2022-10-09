@@ -1,11 +1,3 @@
-.img-responsive {
-    visibility: hidden;
-}
-
-#nom_item {
-    visibility: hidden;
-}
-
-.form-control {
+.img-responsive, .form-control, #nom_item, #myTabContent {
     visibility: hidden;
 }

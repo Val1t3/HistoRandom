@@ -1,0 +1,11 @@
+.img-responsive {
+    visibility: hidden;
+}
+
+#nom_item {
+    visibility: hidden;
+}
+
+.form-control {
+    visibility: hidden;
+}

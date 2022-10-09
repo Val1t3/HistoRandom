@@ -6,16 +6,16 @@ var urls = [
         name: "Rein",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=62&lame=35&g=0&d=1"
     }, {
-        name: "Thyroïde",
+        name: "Thyroide",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=40&lame=4&g=0&d=1"
     }, {
         name: "Foie",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=17&lame=20&g=0&d=1"
     }, {
-        name: "Glandes surrénales",
+        name: "Glandes surrenales",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=47&lame=83&g=0&d=1"
     }, {
-        name: "Pancréas",
+        name: "Pancreas",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=56&lame=34&g=0&d=1"
     }, {
         name: "Parotide",
@@ -24,7 +24,7 @@ var urls = [
         name: "Hypophyse",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=3&itm=80&lame=40&g=0&d=1"
     }, {
-        name: "Parathyroïde",
+        name: "Parathyroide",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=57&lame=38&g=0&d=1"
     }, {
         name: "Glande sous maxillaire",
@@ -51,25 +51,25 @@ var urls = [
         name: "Oesophage",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=55&lame=23&g=0&d=1"
     }, {
-        name: "Duodénum",
+        name: "Duodenum",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=51&lame=12&g=0&d=1"
     }, {
         name: "Jejunum-Ileon",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=1&lame=9&g=0&d=1"
     }, {
-        name: "Côlon",
+        name: "Colon",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=9&lame=1&g=0"
     }, {
-        name: "Estomac région fundique",
+        name: "Estomac region fundique",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=16&lame=25&g=0"
     }, {
-        name: "Estomac région pylorique",
+        name: "Estomac region pylorique",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=16&lame=111&g=0"
     }, {
-        name: "Vésicule biliaire",
+        name: "Vesicule biliaire",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=66&lame=36&g=0"
     }, {
-        name: "Trachée",
+        name: "Trachee",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=52&lame=39&g=0"
     }, {
         name: "Bronches",

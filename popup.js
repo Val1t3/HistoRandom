@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, false);
 
     newButton.addEventListener('click', () => {
-        alert("NEW !");
+        chrome.tabs.update(null, {url:"https://www.youtube.com"});
     }, false);
 }, false);

@@ -83,6 +83,12 @@ var urls = [
     }, {
         name: "Artère aorte",
         url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=1&itm=2&lame=63&g=0&d=1"
+    }, {
+        name: "Vessie",
+        url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=39&lame=11&g=0&d=1"
+    }, {
+        name: "Uretère",
+        url: "https://doc-pedagogie.umontpellier.fr/medecine/histologieLV/index.php?module=detail&vue=2&itm=41&lame=7&g=0&d=1"
     }
 ]
 
@@ -114,6 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, false);
 
     newButton.addEventListener('click', () => {
-        chrome.tabs.update(null, { url: urls[RandomNumber(0, 27)].url });
+        chrome.tabs.update(null, { url: urls[RandomNumber(0, 29)].url });
     }, false);
 }, false);
